@@ -6,6 +6,10 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 
+/**
+ * @author Mahesh
+ *
+ */
 public class HashMapDemo {
 
 	HashMap<Employee, Integer> empMap = new HashMap<Employee, Integer>();
