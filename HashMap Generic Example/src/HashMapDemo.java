@@ -13,7 +13,7 @@ public class HashMapDemo {
 	HashMap<Employee, Integer> empMap = new HashMap<Employee, Integer>();
 	HashMap<Student, Boolean> studMap = new HashMap<Student, Boolean>();
 
-	public static <T> void main(String[] args) {
+	public static void main(String[] args) {
 		
 		HashMapDemo h = new HashMapDemo();
 		h.getKeyAndValue();
