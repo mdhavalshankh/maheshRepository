@@ -63,7 +63,6 @@ public class StudentImpl implements StudentOp {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction transaction = session.beginTransaction();
 		session.update(stud);
-		HibernateUtil.closeConnection(session, transaction);
 		stud = getStudent(stud.getStudId());
 		HibernateUtil.closeConnection(session, transaction);
 		return stud;
